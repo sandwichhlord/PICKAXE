@@ -7,7 +7,7 @@
 Video demonstrations are in the demo folder!
 
 ## Why We Built This
-Expensive fitness trackers (like Apple Watches or Fitbits) already have all the raw sensors needed to extrapolate cool health insights like sickness likelihood or granular sleep stages. But they usually lock those features behind subscription paywalls or don't let you access the raw data yourself. My team and I built PICKAXE to show how easy it is to build a completely free, open-source biometric pipeline from scratch, right from the bare metal up to the UI.
+Expensive fitness trackers (like Apple Watches or Fitbits) already have all the raw sensors needed to extrapolate cool health insights like sickness likelihood, fall detection or granular sleep stages. But they usually lock those features behind subscription paywalls or don't let you access the raw data yourself. My team and I built PICKAXE to show how easy it is to build a completely free, open-source biometric pipeline from scratch, right from the bare metal up to the UI.
 
 ## System Architecture & Data Pipeline
 The system is pretty modular. We split the hardware data collection, the network ingestion, and the ML inferences into distinct decoupled layers.
