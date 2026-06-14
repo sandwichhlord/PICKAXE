@@ -2,6 +2,8 @@
 
 ![C++](https://img.shields.io/badge/Firmware-C++-blue) ![Python](https://img.shields.io/badge/Backend-Python-yellow) ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red) ![ESP32](https://img.shields.io/badge/Hardware-ESP32-lightgrey)
 
+**Portable Inertial & Cardiac Kinetic Analyzer for EXtended Evaluation**
+
 **Status: Functional Prototype** > **Note for recruiters/reviewers:** This repo contains the firmware and pipeline for an IoT wearable I built with a 4-person project team. The core architecture works great, but since it was a rapid college project, I'm still cleaning up some technical debt (like swapping the CSV buffers for a proper message broker like Redis).
 
 Video demonstrations are in the demo folder!
