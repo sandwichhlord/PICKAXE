@@ -28,7 +28,8 @@ The system is pretty modular. We split the hardware data collection, the network
 5. **The Frontend (`frontend/app.py`):** 
    * A Streamlit dashboard that continuously reads the inference buffers. I had to write some exception handling to bypass file-locking collisions, but it displays the real-time vitals and analytical extrapolations pretty smoothly.
 
-## Features That Actually Work Well
+## Features
+* **High Level Data Extrapolation:** Data extrapolation such as sickness scores, impact detection, etc, that traditional wearables like Fitbits miss.
 * **Zero-Latency Edge Detection:** Fall detection triggers right on the hardware. No API calls needed.
 * **Resource-Efficient Downsampling:** Only running the inference at 1Hz means the Streamlit app doesn't crash the background CPU while it runs.
 * **Rolling Buffer Management:** The ingestion script automatically prunes the active CSV state files to a maximum of 1,000 rows so we don't accidentally memory leak or cause file I/O bottlenecks if left running overnight.
