@@ -9,8 +9,8 @@ OUTPUT_FILE = os.path.join(DATA_DIR, 'ml_inference.csv')
 
 BASELINE_HR = 75
 BASELINE_TEMP = 36.5
-
-# SICKNESS SCORE FUNCTION
+ 
+# SICKNESS SCORE FUNCTION -> finds the sickness score
 def calculate_sickness_score(current_hr, baseline_hr, current_temp, baseline_temp, current_spo2):
     """
     heuristic decision tree; calculates sickness score (0-100).
